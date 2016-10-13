@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server",
     "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",
